@@ -107,3 +107,134 @@ ul {
 }
 
 /* hero  */
+.hero {
+    padding: 77px 0 236px;
+}
+
+.hero>.container {
+    display: grid;
+    position: relative;
+    padding: 52px 67px 49px;
+    grid-template-columns: auto auto;
+}
+
+.hero-bg-gummy-bear-fit-bottle {
+    position: absolute;
+    width: 187px;
+    height: 340px;
+    left: -114px;
+    top: -135px;
+    transform: rotate(-17deg);
+}
+
+.hero-bg-filter {
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    position: absolute;
+    border-radius: 20px;
+    background: rgba(255, 255, 255, 0.25);
+    backdrop-filter: blur(25px);
+}
+
+/* 1 */
+.hero-first-data-wrapper {
+    width: 100%;
+    z-index: 2;
+}
+
+.hero-question-answer-parent {
+    margin-bottom: 16px;
+}
+
+.hero-question-text,
+.hero-answer-text {
+    color: var(--white-color);
+    font-size: 26px;
+    font-weight: 700;
+}
+
+.hero-gummy-bear-fit-logo {
+    width: 508px;
+    height: 123px;
+    margin-bottom: 24px;
+}
+
+.about-gummy-bear-fit {
+    max-width: 536px;
+    color: var(--light-dark--color);
+    font-weight: 400;
+    margin-bottom: 33px;
+}
+
+.hero-test-link-wrapper {
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    max-width: 520px;
+    width: 100%;
+    align-items: center;
+    text-align: center;
+    padding: 23px 0 16px;
+    background: var(--brown-color);
+    border-radius: 20px;
+}
+
+.hero-test-link-wrapper>img {
+    position: absolute;
+    top: -43px;
+    left: 10px;
+    width: 71px;
+    height: 117px;
+    transform: rotate(-8deg);
+}
+
+.hero-test-link-wrapper p {
+    font-size: 18px;
+    max-width: 304px;
+    color: var(--white-color);
+    margin-bottom: 14px;
+}
+
+.hero-last-data-wrapper {
+    display: flex;
+    align-items: center;
+    z-index: 2;
+}
+
+.hero-gummy-bear-fit-bottle {
+    width: 244px;
+    height: 443px;
+    margin-right: 52px;
+}
+
+.hero-list-title {
+    margin-bottom: 20px;
+}
+
+.hero-list-child {
+    display: flex;
+    align-items: center;
+}
+
+.hero-list-child::before {
+    display: inline-block;
+    content: '';
+    width: 21px;
+    height: 21px;
+    background: url(../images/success-icon.svg);
+    margin-right: 10px;
+}
+
+.hero-list-child:not(:last-child) {
+    margin-bottom: 10px;
+}
+
+.hero-green-gummy-bears-group-img {
+    position: absolute;
+    width: 257px;
+    height: 753px;
+    transform: rotate(11deg);
+    right: 263px;
+    top: -87px;
+}
