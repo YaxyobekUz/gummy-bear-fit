@@ -643,7 +643,9 @@ ul {
     right: 71px;
 }
 
+/* results  */
 .results {
+    position: relative;
     padding: 52px 0;
 }
 
@@ -691,6 +693,13 @@ ul {
 
 .results-section-image:nth-child(6) {
     width: 348px;
+}
+
+.result-section-brown-bg {
+    position: absolute;
+    width: 100%;
+    top: 509px;
+    z-index: -1;
 }
 
 /* comments  */
