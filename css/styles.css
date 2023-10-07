@@ -397,10 +397,8 @@ ul {
 .about-secret {
     position: relative;
     z-index: 1;
-    padding: 52px 0;
+    padding: 52px 0 88px;
 }
-
-.container {}
 
 .title-about-secret {
     position: relative;
