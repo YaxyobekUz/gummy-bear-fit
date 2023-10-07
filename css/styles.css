@@ -382,10 +382,13 @@ ul {
     top: 0;
 }
 
+.about-section {
+    position: relative;
+}
+
 .about-section-brown-bg {
-    display: none;
     position: absolute;
-    width: 100vw;
-    top: 1763px;
+    width: 100%;
+    top: 183px;
     z-index: -1;
 }
