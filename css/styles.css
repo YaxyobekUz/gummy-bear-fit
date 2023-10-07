@@ -205,19 +205,19 @@ ul {
     z-index: 2;
 }
 
-.hero-section-bottle-parent {
+.bottle-parent {
     position: relative;
     margin-right: 52px;
 }
 
-.hero-section-gummy-bear-fit-bottle {
+.gummy-bear-fit-bottle {
     position: relative;
     width: 244px;
     height: 443px;
     z-index: 1;
 }
 
-.hero-section-gummy-bear-fit-bottle-shadow {
+.gummy-bear-fit-bottle-shadow {
     position: absolute;
     width: 239px;
     height: 283px;
