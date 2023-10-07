@@ -392,3 +392,120 @@ ul {
     top: 183px;
     z-index: -1;
 }
+
+/* about the secret of the gummy bear fit   */
+.about-secret {
+    position: relative;
+    z-index: 1;
+    padding: 52px 0;
+}
+
+.container {}
+
+.title-about-secret {
+    position: relative;
+    max-width: 453px;
+    margin-left: 56px;
+    color: var(--white-color);
+    margin-bottom: 30px;
+    z-index: 0;
+}
+
+.title-about-secret::after {
+    display: inline-block;
+    position: absolute;
+    content: 'Qual è il segreto di GummyBear Fit?';
+    width: 839px;
+    bottom: -66px;
+    right: -407px;
+    color: #FFF;
+    font-size: 80px;
+    line-height: 92%;
+    letter-spacing: -1.6px;
+    opacity: 0.1;
+}
+
+.lists-wrapper {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    gap: 35px;
+    z-index: 1;
+}
+
+.lists-wrapper-child {
+    padding: 30px 71px;
+    border-radius: 20px;
+    background: var(--white-color);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.lists-wrapper-child:nth-child(1) {
+    grid-area: 1 / 1 / 2 / 8;
+    padding-right: 188px;
+}
+
+.lists-wrapper-child:nth-child(2) {
+    grid-area: 2 / 1 / 3 / 8;
+    padding-right: 150px;
+}
+
+.lists-wrapper-child:nth-child(3) {
+    position: relative;
+    grid-area: 1 / 8 / 3 / 13;
+    padding: 30px 70px 100px 103px;
+}
+
+.lists-wrapper-child .text-green {
+    margin-bottom: 10px;
+}
+
+.lists-wrapper-child-title {
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+
+.about-drug-list-child:not(:last-child) {
+    margin-bottom: 15px;
+}
+
+.about-drug-list-child p {
+    font-size: 18px;
+}
+
+/* bottle  */
+.lists-wrapper-child:nth-child(3) .bottle-parent {
+    position: absolute;
+    top: 36px;
+    left: -195px;
+}
+
+.bottle-parent>div {
+    position: relative;
+}
+
+.lists-wrapper-child:nth-child(3) .gummy-bear-fit-bottle {
+    width: 261px;
+    height: 475px;
+}
+
+/* test link  */
+.test-link {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    position: absolute;
+    width: 520px;
+    bottom: -113px;
+    padding: 23px 38px 28px 74px;
+    background: var(--yellow-color);
+    border-radius: 20px;
+
+}
+
+.test-link-title {
+    text-align: center;
+    font-size: 26px;
+    margin-bottom: 14px;
+}
