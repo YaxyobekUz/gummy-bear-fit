@@ -1247,7 +1247,7 @@ ul {
 }
 
 /* bottom  */
-.bottom-content {
+.about-overweight .bottom-content {
     position: absolute;
     bottom: -112px;
     background: var(--yellow-color);
@@ -1255,37 +1255,37 @@ ul {
     max-width: max-content;
 }
 
-.bottom-content>div {
+.about-overweight .bottom-content>div {
     position: relative;
     padding: 20px 35px 20px 190px;
     text-align: center;
     max-width: 850px;
 }
 
-.bottom-content>div p {
+.about-overweight .bottom-content>div p {
     font-family: 'Inter', sans-serif;
     font-size: 22px;
     line-height: 30px;
     margin-bottom: 19px;
 }
 
-.bottom-content>div b {
+.about-overweight .bottom-content>div b {
     font-size: 26px;
     font-weight: 700;
 }
 
-.bottom-content .hero-double-bottle-parent {
+.about-overweight .bottom-content .hero-double-bottle-parent {
     transform: rotate(0deg);
     top: -53px;
     left: 43px;
 }
 
-.bottom-content .hero-double-gummy-bear-fit-bottle {
+.about-overweight .bottom-content .hero-double-gummy-bear-fit-bottle {
     width: 128px;
     height: 233px;
 }
 
-.bottom-content .hero-double-bottle-parent svg {
+.about-overweight .bottom-content .hero-double-bottle-parent svg {
     width: 126px;
     height: 149px;
     bottom: -22px;
