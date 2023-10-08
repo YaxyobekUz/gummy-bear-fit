@@ -1055,3 +1055,103 @@ ul {
 .links-wrapper a {
     color: #000;
 }
+
+/* sales page  */
+.salespage-hero {
+    padding: 117px 0 129px;
+}
+
+.salespage-hero .container>div {
+    display: flex;
+    justify-content: end;
+    padding: 34px 110px 85px;
+}
+
+.salespage-hero .hero-bg-gummy-bear-fit-bottle {
+    width: 187px;
+    height: 340px;
+    left: -130px;
+    top: -154px;
+    transform: rotate(-17deg);
+    z-index: -2;
+}
+
+.salespage-hero .hero-bg-filter {
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+
+.friends-img {
+    position: absolute;
+    left: -53px;
+    bottom: 0;
+}
+
+.hero-double-bottle-parent {
+    position: absolute;
+    transform: rotate(16deg);
+    max-height: max-content;
+    left: 446px;
+    bottom: -49px;
+    z-index: 1;
+}
+
+.hero-double-bottle-parent-2 {
+    transform: rotate(-17deg);
+    left: 317px;
+    bottom: -74px;
+    z-index: 0;
+}
+
+.hero-double-bottle-parent>div {
+    position: relative;
+}
+
+.hero-double-bottle-parent>div svg {
+    position: absolute;
+    bottom: -32px;
+    left: 0px;
+    transform: rotate(2deg);
+    filter: blur(25px);
+    z-index: -1;
+}
+
+/* main content  */
+.salespage-hero-main-content {
+    align-items: start;
+    flex-direction: column;
+    max-width: 579px;
+}
+
+.salespage-hero-title {
+    max-width: 528px;
+    margin-bottom: 26px;
+}
+
+.salespage-hero-main-content .hero-list-parent {
+    margin-bottom: 54px;
+}
+
+.salespage-hero-main-content-bottom-text {
+    width: 579px;
+    font-size: 26px;
+}
+
+.salespage-hero-main-content-bottom-text b {
+    font-weight: 700;
+}
+
+.salespage-hero .hero-green-gummy-bears-group-img {
+    z-index: -2;
+}
+
+.hero-last-gummy-bear-fit-bottle {
+    position: absolute;
+    width: 261px;
+    height: 380px;
+    right: -165px;
+    bottom: -160px;
+    transform: rotate(25deg);
+    z-index: -2;
+}
