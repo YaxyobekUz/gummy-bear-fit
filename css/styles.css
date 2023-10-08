@@ -27,7 +27,7 @@
     min-height: 100vh;
 }
 
-.main{
+.main {
     flex-grow: 1;
 }
 
@@ -1066,7 +1066,7 @@ ul {
 
 /* sales page  */
 .salespage-hero {
-    padding: 117px 0 129px;
+    padding: 117px 0 65px;
 }
 
 .salespage-hero .container>div {
@@ -1162,4 +1162,48 @@ ul {
     bottom: -160px;
     transform: rotate(25deg);
     z-index: -2;
+}
+
+/* advice section  */
+
+.advice-section {
+    position: relative;
+    padding: 64px 0 52px;
+}
+
+.advice-section .container>div {
+    display: flex;
+    align-items: start;
+    justify-content: space-between;
+    gap: 32px;
+    border-radius: 20px;
+    background: var(--white-color);
+    padding: 60px 124px 60px 69px;
+}
+
+.advice-section-title {
+    max-width: 555px;
+    margin-bottom: 17px;
+}
+
+.advice-section-description {
+    max-width: 511px;
+}
+
+.advice-section-description b {
+    font-weight: 700;
+}
+
+.family-img {
+    width: 510px;
+    height: 346px;
+    border-radius: 20px;
+}
+
+.advice-section-bg-shape {
+    position: absolute;
+    width: 100%;
+    z-index: -1;
+    top: -39px;
+    right: 0;
 }
