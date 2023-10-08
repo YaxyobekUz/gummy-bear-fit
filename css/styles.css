@@ -15,12 +15,20 @@
 }
 
 .body {
+    display: flex;
+    flex-direction: column;
     font-family: 'Jost', sans-serif;
     font-weight: 400;
     background: var(--yellow-color);
     font-size: 22px;
     color: var(--light-dark--color);
     line-height: normal;
+    width: 100%;
+    min-height: 100vh;
+}
+
+.main{
+    flex-grow: 1;
 }
 
 .container {
