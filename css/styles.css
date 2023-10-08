@@ -974,3 +974,67 @@ ul {
     bottom: -80px;
     right: -15px;
 }
+
+/* last section  */
+
+.homepage-last-section {
+    padding: 56px 0 29px;
+}
+
+.homepage-last-section .container>div {
+    position: relative;
+    padding: 68px 68px 82px 620px;
+}
+
+.homepage-last-section-bg-filter {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+    background: #ffffff40;
+    backdrop-filter: blur(25px);
+    z-index: 0;
+    top: 0;
+    left: 0;
+}
+
+.gummy-bear-fit-bottles {
+    position: absolute;
+    z-index: 1;
+    left: 13px;
+    top: -53px;
+}
+
+.homepage-last-section-main-content {
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    align-items: center;
+    z-index: 1;
+    text-align: center;
+}
+
+.homepage-last-section-title {
+    color: var(--white-color);
+    margin-bottom: 40px;
+}
+
+.homepage-last-section-description {
+    font-family: 'inter', sans-serif;
+    margin-bottom: 86px;
+}
+
+.homepage-last-section-main-content .hero-test-link-wrapper>p {
+    max-width: 357px;
+    font-size: 22px;
+    font-weight: 700;
+}
+
+.green-gummy-bears-group-img {
+    position: absolute;
+    width: 658px;
+    height: 886px;
+    top: -102px;
+    left: 13px;
+    z-index: -1;
+}
