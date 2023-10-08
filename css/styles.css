@@ -1038,3 +1038,20 @@ ul {
     left: 13px;
     z-index: -1;
 }
+
+/* footer  */
+.footer {
+    padding: 29px 0 73px;
+}
+
+.footer .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 1290px;
+}
+
+.footer .container p,
+.links-wrapper a {
+    color: #000;
+}
