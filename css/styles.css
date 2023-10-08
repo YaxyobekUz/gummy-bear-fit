@@ -1207,3 +1207,86 @@ ul {
     top: -39px;
     right: 0;
 }
+
+/* about overweight  */
+
+.about-overweight {
+    padding: 52px 0 117px;
+}
+
+.about-overweight .container>div {
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    align-items: center;
+    padding: 59px 69px 172px;
+    border-radius: 20px;
+    background: var(--white-color);
+}
+
+.title-about-overweight {
+    margin-bottom: 30px;
+}
+
+.main-list {
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 20px 30px;
+}
+
+.main-list-child {
+    display: flex;
+    align-items: start;
+    gap: 10px;
+}
+
+.main-list-child-title,
+.main-list-child-description {
+    color: var(--light-dark--color);
+    font-size: 18px;
+}
+
+/* bottom  */
+.bottom-content {
+    position: absolute;
+    bottom: -112px;
+    background: var(--yellow-color);
+    border-radius: 20px;
+    max-width: max-content;
+}
+
+.bottom-content>div {
+    position: relative;
+    padding: 20px 35px 20px 190px;
+    text-align: center;
+    max-width: 850px;
+}
+
+.bottom-content>div p {
+    font-family: 'Inter', sans-serif;
+    font-size: 22px;
+    line-height: 30px;
+    margin-bottom: 19px;
+}
+
+.bottom-content>div b {
+    font-size: 26px;
+    font-weight: 700;
+}
+
+.bottom-content .hero-double-bottle-parent {
+    transform: rotate(0deg);
+    top: -53px;
+    left: 43px;
+}
+
+.bottom-content .hero-double-gummy-bear-fit-bottle {
+    width: 128px;
+    height: 233px;
+}
+
+.bottom-content .hero-double-bottle-parent svg {
+    width: 126px;
+    height: 149px;
+    bottom: -22px;
+}
