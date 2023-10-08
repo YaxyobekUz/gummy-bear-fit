@@ -20,7 +20,7 @@
     <link rel="stylesheet" href="css/styles.css">
 </head>
 
-<body class="body">
+<body class="body salepage">
 
     <!-- hero  -->
     <section class="salespage-hero hero">
@@ -257,10 +257,12 @@
                     <!-- main content  -->
                     <div class="about-gift-section-main-content">
                         <h2 class="about-gift-section-title">He temete il cambiamento, agite ora!</h2>
-                        <p class="paragraph">Sappiamo quanto sia importante per voi raggiungere il peso desiderato, e GummyBear Fit è la
+                        <p class="paragraph">Sappiamo quanto sia importante per voi raggiungere il peso desiderato, e
+                            GummyBear Fit è la
                             chiave per questo sogno! Immaginate il vostro corpo trasformarsi, la vostra salute diventare
                             più forte e raggiungere il peso che avete sempre sognato.</p>
-                        <b class="bold-text">Facciamo diventare realtà il vostro sogno del peso ideale! GummyBear Fit è il vostro fedele
+                        <b class="bold-text">Facciamo diventare realtà il vostro sogno del peso ideale! GummyBear Fit è
+                            il vostro fedele
                             compagno sulla strada verso un "io" migliore e più sano. Fidatevi del nostro prodotto e
                             sentirete la differenza.</b>
                         <p>
@@ -286,6 +288,151 @@
                 </div>
             </div>
         </section>
+
+        <!-- purchase information  -->
+        <section class="purchase-info">
+            <div class="container">
+                <div>
+
+                    <!-- bottles  -->
+                    <img width="213" height="387" src="./images/sales-page-gummy-bear-fit-bottle.png" alt="gummy bear fit bottle image" class="salespage-gummy-bear-fit-bottle">
+                    <img width="350" height="446" src="./images/sales-page-gummy-bear-fit-bottle-(shadow).png" alt="gummy bear fit bottle image" class="salespage-gummy-bear-fit-bottle-shadow">
+                    
+                    <!-- green gummy bear img  -->
+                    <img width="220" height="586" class="salespage-gree-gummy-bears" src="./images/salespage-green-gummy-bears-group.png" alt="green gummy bears group image">
+
+                    <!-- filter  -->
+                    <div class="purchase-info-section-bg-filter"></div>
+
+                    <!-- title  -->
+                    <h2 class="purchase-info-section-title">Fateci sapere dove possiamo inviare il tuo pacchetto con
+                        GummyBear Fit</h2>
+
+                    <!-- form  -->
+                    <form action="https://echo.htmlacademy.ru" class="main-form">
+                        <!-- name  -->
+                        <label for="name-input">Nome e Cognome</label>
+                        <input id="name-input" name="name" type="text" required placeholder="Nome e Cognome"
+                            class="name-input main-input-style">
+                        <!-- tel -->
+                        <label for="tel-input">Telefono (Meglio Cellulare)</label>
+                        <input id="tel-input" name="tel" type="tel" required placeholder="+39 9999999999"
+                            class="tel-input main-input-style">
+                        <!-- address -->
+                        <label for="address-input">Indirizzo e n. civico</label>
+                        <input id="address-input" name="address" type="text" required
+                            placeholder="Indirizzo e n. civico" class="address-input main-input-style">
+
+                        <!-- city name and city code  -->
+                        <div class="city-address-input-wrapper">
+                            <!-- city address -->
+                            <div>
+                                <label for="city-address-input">Città</label>
+                                <input name="city-address" id="city-address-input" type="text" required
+                                    placeholder="Città" class="city-address-input main-input-style">
+                            </div>
+                            <!-- Postal Code -->
+                            <div>
+                                <label for="postal-code-input">CAP</label>
+                                <input id="postal-code-input" name="city-postal-code" type="text" required
+                                    placeholder="CAP" class="postal-code-input main-input-style">
+                            </div>
+                        </div>
+
+                        <!-- offer  -->
+                        <div class="offer">
+                            <div>
+                                <!-- img  -->
+                                <img src="./images/big-sale-gummy-bear-fit-bottles.png"
+                                    alt="gummy bear fit bottles image" class="offer_gummy-bear-bottles">
+                                <h3 class="offer-title">Offerta attiva</h3>
+                                <p class="offer-description">x2 GummyBear Fit</p>
+                                <div class="product-price">49,99€</div>
+                                <p class="offer-description-2">Fino alla fine della promozione</p>
+                                <!-- time count  -->
+                                <p class="time-count">
+                                    <span class="hour">06</span> :
+                                    <span class="minute">00</span> :
+                                    <span class="second">00</span>
+                                </p>
+                            </div>
+                        </div>
+
+                        <!-- payment type  -->
+                        <details class="payment-type-details">
+                            <!-- pay by cash  -->
+                            <summary class="payment-title">In contanti al corriere</summary>
+                            <div>
+                                <input name="payment-type" checked value="cash-pay" type="radio" id="cashpay"
+                                    class="cashpay">
+                                <label for="cashpay" class="cashpay-label">In contanti al corriere</label>
+
+                                <!-- pay by card  -->
+                                <input name="payment-type" value="card-pay" type="radio" id="cardpay" class="cardpay">
+                                <label for="cardpay" class="cardpay-label">Con carta di credito o paypal</label>
+                            </div>
+                        </details>
+
+                        <!-- card payment  -->
+                        <details class="card-payment-details">
+                            <summary class="payment-title">Con carta di credito o paypal</summary>
+
+                            <div>
+                                <!-- cards logo -->
+                                <img src="./images/cards.png" alt="visa and mastercard image">
+
+                                <!-- checkbox  -->
+                                <div class="checkbox-parent">
+                                    <input type="checkbox" name="inp" id="checkbox-input" class="checkbox-input">
+                                    <div class="fake-checkbox-input">
+                                        <img width="11" height="8" src="./images/done-icon.svg" alt="done icon image">
+                                    </div>
+                                    <label for="checkbox-input">Same Shipping and Billing Address</label>
+                                </div>
+
+                                <!-- cards wrapper  -->
+                                <div class="cards-wrapper">
+
+                                    <!-- front  -->
+                                    <div class="card-front">
+                                        <label for="card-num">Card Number*</label>
+                                        <input id="card-num" name="card-number" maxlength="16" class="card-number-input"
+                                            placeholder="0000 0000 0000 0000" type="text">
+
+                                        <!-- Expiry date  -->
+                                        <label for="card-term">Expiry date</label>
+                                        <input id="card-term" name="card-term" maxlength="4"
+                                            class="card-term-number-input" placeholder="00 / 00" type="text">
+
+                                    </div>
+
+                                    <!-- backend)  -->
+                                    <div class="card-back">
+                                        <div class="restangle"></div>
+                                        <!-- CVV/CVC -->
+                                        <div>
+                                            <label for="card-cvv">CVV/CVC</label>
+                                            <input id="card-cvv" name="CVV/CVC" maxlength="3"
+                                                class="card-cvv-number-input" placeholder="000" type="text">
+                                            <span>3 digits on the back of your card</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </details>
+
+                        <!-- note  -->
+                        <textarea placeholder="Note per il corriere" name="note-message"
+                            class="note main-input-style"></textarea>
+
+                        <!-- button  -->
+                        <button class="submit-btn green-btn">
+                            <span>Completa l'acquisto</span>
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </section>
     </main>
     <!-- footer  -->
     <footer class="footer">
@@ -297,6 +444,12 @@
                 <a href="https://example.com">Privacy Policy</a>
             </span>
         </div>
+
+        <!-- bg  -->
+        <svg class="footer-bg-shape" width="1919" height="1190" viewBox="0 0 1919 1190" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M0 279.5L1920 0V2513L0 2286.26V279.5Z" fill="#673F1B" />
+        </svg>
+
     </footer>
 
     <script src="script.js"></script>

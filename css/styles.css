@@ -1050,6 +1050,7 @@ ul {
 /* footer  */
 .footer {
     padding: 29px 0 73px;
+    position: relative;
 }
 
 .footer .container {
